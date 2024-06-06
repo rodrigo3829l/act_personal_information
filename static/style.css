@@ -72,3 +72,63 @@ body {
 .card-content .details-row .label {
     font-weight: bold;
 }
+
+.hobbies textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.hobbies button {
+    width: 100%;
+    padding: 10px;
+    background: #1a1a2e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hobbies button:hover {
+    background: #0f0f1e;
+}
+
+.hobbies-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.hobbies-list li::before {
+    content: "•";
+    color: #1a1a2e;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.hobbies-list li button {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    height: 25px; /* Ensure the button is square */
+    width: 25px;  /* Ensure the button is square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
